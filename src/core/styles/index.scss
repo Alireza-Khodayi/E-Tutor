@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url(./_reset.scss);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  border-top: 2px solid #ff6636;
+}
+.swiper-button-prev {
+  color: #ff6636;
+}
+.swiper-button-next {
+  color: #ff6636;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ff6636;
+}
+
+.swiper-pagination {
+  z-index: 0 !important;
+}
+:where(.ant-popover) .ant-popover-inner {
+  padding: 0 !important;
+}
+
+* {
+  font-family: "roboto";
+}
