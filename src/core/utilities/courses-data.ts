@@ -1,14 +1,14 @@
-import image_1 from "../../../../assets/images/CourseImages/BestSelling/1.jpg";
-import image_2 from "../../../../assets/images/CourseImages/BestSelling/2.jpg";
-import image_3 from "../../../../assets/images/CourseImages/BestSelling/3.jpg";
-import image_4 from "../../../../assets/images/CourseImages/BestSelling/4.jpg";
-import image_5 from "../../../../assets/images/CourseImages/BestSelling/5.jpg";
-import image_6 from "../../../../assets/images/CourseImages/BestSelling/6.jpg";
-import image_7 from "../../../../assets/images/CourseImages/BestSelling/7.jpg";
-import image_8 from "../../../../assets/images/CourseImages/BestSelling/8.jpg";
-import image_9 from "../../../../assets/images/CourseImages/BestSelling/9.jpg";
-import image_10 from "../../../../assets/images/CourseImages/BestSelling/10.jpg";
-import AuthorAvatar from "../../../../assets/images/CourseImages/BestSelling/AuthurAvatar.jpg";
+import image_1 from "../../assets/images/CourseImages/BestSelling/1.jpg";
+import image_2 from "../../assets/images/CourseImages/BestSelling/2.jpg";
+import image_3 from "../../assets/images/CourseImages/BestSelling/3.jpg";
+import image_4 from "../../assets/images/CourseImages/BestSelling/4.jpg";
+import image_5 from "../../assets/images/CourseImages/BestSelling/5.jpg";
+import image_6 from "../../assets/images/CourseImages/BestSelling/6.jpg";
+import image_7 from "../../assets/images/CourseImages/BestSelling/7.jpg";
+import image_8 from "../../assets/images/CourseImages/BestSelling/8.jpg";
+import image_9 from "../../assets/images/CourseImages/BestSelling/9.jpg";
+import image_10 from "../../assets/images/CourseImages/BestSelling/10.jpg";
+import AuthorAvatar from "../../assets/images/CourseImages/BestSelling/AuthurAvatar.jpg";
 
 export const coursesData = [
   {

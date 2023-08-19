@@ -25,11 +25,14 @@ const instructSteps = [
 const BecomeInstructor = () => {
   return (
     <Container>
-      <div className="flex flex-col md:flex-row gap-x-4">
-        <img className="object-cover aspect-auto md:w-[50%]" src="src\assets\images\Banner1.jpg" />
+      <div className="flex flex-col md:flex-row gap-4">
+        <img
+          className="object-cover aspect-auto md:w-[50%]"
+          src="src\assets\images\Banner1.jpg"
+        />
         <div className=" px-6 py-6 bg-slate-50 shadow-sm">
           <h3 className="text-2xl font-bold">Your teaching & earning steps</h3>
-          <div className="grid grid-cols-2 gap-5 mt-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-4">
             {instructSteps.map((step) => (
               <Item number={step.number} text={step.text} color={step.color} />
             ))}
@@ -49,7 +52,7 @@ const Item = ({ number, text, color }: Items_Props) => {
   return (
     <div className="flex gap-x-2 items-center">
       <span
-        className="px-5 py-4 rounded-full"
+        className="px-5 py-3 rounded-full text-lg font-bold"
         style={{ backgroundColor: `${color}11`, color: color }}
       >
         {number}

@@ -6,7 +6,7 @@ import "swiper/scss";
 import "swiper/scss/navigation";
 import "swiper/scss/pagination";
 
-import { coursesData } from "./courses-data";
+import { coursesData } from "../../../../core/utilities/courses-data";
 import Container from "../../../template/layout/Container";
 import CourseItem from "./CourseItem";
 import { ArrowRightOutlined } from "@ant-design/icons";

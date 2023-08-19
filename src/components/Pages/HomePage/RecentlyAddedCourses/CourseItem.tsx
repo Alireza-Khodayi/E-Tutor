@@ -1,6 +1,6 @@
 import { Divider, Popover } from "antd";
 import { StarFilled } from "@ant-design/icons";
-import CourseItemHovered from "./CourseItemHovered";
+import CourseItemHovered from "./CourseItemPopover";
 
 type I_Props = {
   id: number;
