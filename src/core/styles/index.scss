@@ -18,6 +18,9 @@
   background-color: #ff6636;
 }
 
+.swiper-wrapper {
+  justify-content: space-between;
+}
 .swiper-pagination {
   z-index: 0 !important;
 }

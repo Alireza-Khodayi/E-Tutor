@@ -52,7 +52,7 @@ const CourseItem = ({
       placement="topLeft"
       trigger="click"
     >
-      <div className="flex items-center z-10">
+      <div className="flex items-center z-10 border border-solid border-gray-200">
         <div className="w-full relative bg-white hover:shadow-md  transition-all duration-500 cursor-pointer ">
           <img className="w-full" src={image} />
           <div className="px-3 ">

@@ -24,7 +24,7 @@ type I_Props = {
   price: number;
 };
 
-const CourseItemHovered = ({
+const CourseItemPopover = ({
   id,
   title,
   authorAvatar,
@@ -131,4 +131,4 @@ const CourseItemHovered = ({
   );
 };
 
-export default CourseItemHovered;
+export default CourseItemPopover;

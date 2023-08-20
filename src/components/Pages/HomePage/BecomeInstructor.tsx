@@ -1,3 +1,5 @@
+import { Typography } from "antd";
+
 import Container from "../../template/layout/Container";
 
 const instructSteps = [
@@ -22,6 +24,7 @@ const instructSteps = [
     color: "#23BD33",
   },
 ];
+const { Title } = Typography;
 const BecomeInstructor = () => {
   return (
     <Container>
@@ -31,7 +34,7 @@ const BecomeInstructor = () => {
           src="src\assets\images\Banner1.jpg"
         />
         <div className=" px-6 py-6 bg-slate-50 shadow-sm">
-          <h3 className="text-2xl font-bold">Your teaching & earning steps</h3>
+          <Title level={3}>Your teaching & earning steps</Title>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-4">
             {instructSteps.map((step) => (
               <Item number={step.number} text={step.text} color={step.color} />

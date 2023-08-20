@@ -13,7 +13,7 @@ const HeroSection = () => {
           Our mision is to help people to find the best course online and learn
           with expert anytime, anywhere.
         </p>
-        <Button type="primary" style={{ width: 150 }}>
+        <Button size="large" type="primary" style={{ width: 150 }}>
           Create Account
         </Button>
       </div>
